@@ -1,4 +1,4 @@
-ef calculate_tip(amount, rating)
+def calculate_tip(amount, rating)
   case rating.downcase
   when 'terrible'
     0
